@@ -1,0 +1,61 @@
+name: pt_conjugate
+description: A new Flutter project.
+
+version: 1.0.0+2
+
+environment:
+  sdk: '>=2.2.2 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  flutter_typeahead: ^1.5.0
+  
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  
+  flutter_launcher_icons: "^0.7.2"
+
+flutter_icons:
+  android: "ic_launcher" 
+  ios: true
+  image_path: "assets/icon/icon.png"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/verbs/a/
+    - assets/verbs/b/
+    - assets/verbs/c/
+    - assets/verbs/d/
+    - assets/verbs/e/
+    - assets/verbs/f/
+    - assets/verbs/g/
+    - assets/verbs/h/
+    - assets/verbs/i/
+    - assets/verbs/j/
+    - assets/verbs/k/
+    - assets/verbs/l/
+    - assets/verbs/m/
+    - assets/verbs/n/
+    - assets/verbs/o/
+    - assets/verbs/p/
+    - assets/verbs/q/
+    - assets/verbs/r/
+    - assets/verbs/s/
+    - assets/verbs/t/
+    - assets/verbs/u/
+    - assets/verbs/v/
+    - assets/verbs/w/
+    - assets/verbs/x/
+    - assets/verbs/y/
+    - assets/verbs/z/
+    - assets/verb_list.json
+
+  fonts:
+    - family: Godo
+      fonts:
+        - asset: assets/fonts/GodoM.woff  
